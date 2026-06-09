@@ -1,0 +1,146 @@
+{
+  "profile": {
+    "name": "Miguel Josa de Gardoqui",
+    "role": "Desarrollador Web Frontend",
+    "location": "Zaragoza, España",
+    "email": "migueljosa7@gmail.com",
+    "bio": "Desarrollador Frontend especializado en la creación de interfaces web modernas, responsivas y optimizadas. Con experiencia práctica en React, maquetación interactiva y metodologías ágiles. Proactivo, con gran capacidad de adaptación y enfocado en mejorar la experiencia del usuario.",
+    "cvLink": "/cvmiguel/CVMIGUELJOSA.pdf",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/miguel-josa-de-gardoqui-b61524121/",
+      "github": "https://github.com/migueljosa7-svg"
+    }
+  },
+  "labels": {
+    "navHome": "Inicio",
+    "navProjects": "Proyectos",
+    "navExperience": "Trayectoria",
+    "cvButton": "Descargar CV",
+    "contactDirectButton": "Contactar",
+    "availableBadge": "Disponible para incorporación inmediata",
+    "githubButton": "Código en GitHub",
+    "demoButton": "Demo en Vivo",
+    "demoComingSoon": "Demo próximamente",
+    "contactHeader": "Hablemos",
+    "contactSubtitle": "¿Tienes un proyecto en mente o quieres charlar? Escríbeme y hagamos algo increíble juntos.",
+    "contactButton": "Enviar Correo",
+    "copyEmail": "Copiar correo",
+    "emailCopied": "¡Copiado!",
+    "renderWarning": "Nota: Las demos alojadas en Render pueden tardar unos 30 segundos en iniciar en su primera carga.",
+    "footerText": "© 2026 Miguel Josa de Gardoqui. Diseñado y construido con React.",
+    "filterAll": "Todos"
+  },
+  "sections": {
+    "experienceTitle": "Trayectoria Profesional",
+    "experienceSubtitle": "Mi recorrido profesional y formación académica.",
+    "skillsTitle": "Habilidades y Tecnologías",
+    "skillsSubtitle": "Las herramientas y tecnologías que utilizo para dar vida a los proyectos.",
+    "projectsTitle": "Proyectos Destacados",
+    "projectsSubtitle": "Una selección de mis trabajos más recientes e innovadores."
+  },
+  "projectFilters": ["Todos", "React", "Astro", "JavaScript"],
+  "skillsCategories": {
+    "frontend": "Frontend Development",
+    "backend": "Backend & Bases de Datos",
+    "tools": "Herramientas & Metodologías",
+    "languages": "Idiomas"
+  },
+  "skills": {
+    "frontend": ["React", "Tailwind CSS", "JavaScript", "HTML5", "CSS3", "Astro", "Next.js", "TypeScript"],
+    "backend": ["PHP", "MySQL", "PostgreSQL", "APIs"],
+    "tools": ["Git", "Scrum", "Agile", "Odoo"],
+    "languages": ["Inglés B2"]
+  },
+  "experience": [
+    {
+      "id": 1,
+      "role": "Desarrollador Web (Prácticas)",
+      "company": "I-Directo",
+      "period": "09/2024 - 11/2024",
+      "tasks": [
+        "Gestión y desarrollo de bases de datos.",
+        "Programación en PHP.",
+        "Diseño de interfaces con HTML y JavaScript.",
+        "Optimización de sistemas para mejorar la UX."
+      ]
+    },
+    {
+      "id": 2,
+      "role": "Técnico Informático (Prácticas)",
+      "company": "Eurofone (Dublín)",
+      "period": "03/2022 - 06/2022",
+      "tasks": [
+        "Reparación de dispositivos y ordenadores.",
+        "Atención al cliente."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": 1,
+      "title": "Grado Medio — Sistemas Microinformáticos y Redes (SMR)",
+      "center": "IES Ramón y Cajal, Zaragoza",
+      "period": "2020 - 2022"
+    },
+    {
+      "id": 2,
+      "title": "Grado Superior — Desarrollo de Aplicaciones Web (DAW)",
+      "center": "IES Ramón y Cajal, Zaragoza",
+      "period": "2022 - 2024"
+    },
+    {
+      "id": 3,
+      "title": "Desarrollo Web Front End (300h)",
+      "center": "Océano Atlántico",
+      "period": "2025 - 2026"
+    },
+    {
+      "id": 4,
+      "title": "Metodologías Ágiles Scrum (100h)",
+      "center": "Qualitas",
+      "period": "2025"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "El Futuro del Entrenamiento",
+      "description": "Aplicación web moderna y optimizada dedicada al rendimiento deportivo y la gestión de entrenamientos personalizados.",
+      "technologies": ["Astro", "React", "JavaScript", "CSS3"],
+      "github": "https://github.com/migueljosa7-svg/ProyectoFinalAstro",
+      "renderDemo": "https://proyecto-final-astro.vercel.app/"
+    },
+    {
+      "id": 2,
+      "title": "Hackathon 26 Endalia",
+      "description": "Desarrollo e integración de una interfaz web adaptable en un plazo récord de 8 horas para la Hackathon Endalia, totalmente integrada con MySQL Server.",
+      "technologies": [".NET", "MySQL", "C#", "CSS3"],
+      "github": "https://github.com/Ivokard/hackathon26-endalia",
+      "renderDemo": "#"
+    },
+    {
+      "id": 3,
+      "title": "CaribePark",
+      "description": "Aplicación interactiva diseñada bajo patrón MVC para la gestión de reservas, ventas y mantenimiento de un parque temático.",
+      "technologies": ["Java", "Swing", "MVC"],
+      "github": "https://github.com/migueljosa7-svg/CaribePark",
+      "renderDemo": "#"
+    },
+    {
+      "id": 4,
+      "title": "SkinMarket ES",
+      "description": "Plataforma de comercio electrónico dedicada a la compra, venta e intercambio de skins de videojuegos.",
+      "technologies": ["React", "Tailwind CSS", "Node.js"],
+      "github": "https://github.com/migueljosa7-svg/skinmarket-es",
+      "renderDemo": "#"
+    },
+    {
+      "id": 5,
+      "title": "Factos",
+      "description": "Plataforma interactiva para recopilar y analizar datos estadísticos con visualizaciones en tiempo real.",
+      "technologies": ["Python", "Flask", "PostgreSQL"],
+      "github": "https://github.com/gabri98gim/factos",
+      "renderDemo": "#"
+    }
+  ]
+}
