@@ -1,4 +1,3 @@
-import React from 'react';
 
 /* ─────────────────────────────────────────────────
    Navbar — Hash-based tab navigation.

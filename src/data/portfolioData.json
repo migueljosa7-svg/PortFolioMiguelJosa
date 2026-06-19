@@ -5,7 +5,7 @@
     "location": "Zaragoza, España",
     "email": "migueljosa7@gmail.com",
     "bio": "Desarrollador Frontend especializado en la creación de interfaces web modernas, responsivas y optimizadas. Con experiencia práctica en React, maquetación interactiva y metodologías ágiles. Proactivo, con gran capacidad de adaptación y enfocado en mejorar la experiencia del usuario.",
-    "cvLink": "/cvmiguel/CVMIGUELJOSA.pdf",
+    "cvLink": "/cv/CV_Miguel_Josa.pdf",
     "socials": {
       "linkedin": "https://www.linkedin.com/in/miguel-josa-de-gardoqui-b61524121/",
       "github": "https://github.com/migueljosa7-svg"
@@ -15,10 +15,14 @@
     "navHome": "Inicio",
     "navProjects": "Proyectos",
     "navExperience": "Trayectoria",
+    "experienceTab": "Experiencia",
+    "educationTab": "Educación",
     "cvButton": "Descargar CV",
     "contactDirectButton": "Contactar",
     "availableBadge": "Disponible para incorporación inmediata",
     "githubButton": "Código en GitHub",
+    "githubProfile": "https://github.com/migueljosa7-svg",
+
     "demoButton": "Demo en Vivo",
     "demoComingSoon": "Demo próximamente",
     "contactHeader": "Hablemos",
@@ -38,7 +42,12 @@
     "projectsTitle": "Proyectos Destacados",
     "projectsSubtitle": "Una selección de mis trabajos más recientes e innovadores."
   },
-  "projectFilters": ["Todos", "React", "Astro", "JavaScript"],
+  "projectFilters": [
+    "Todos",
+    "React",
+    "Astro",
+    "JavaScript"
+  ],
   "skillsCategories": {
     "frontend": "Frontend Development",
     "backend": "Backend & Bases de Datos",
@@ -46,10 +55,31 @@
     "languages": "Idiomas"
   },
   "skills": {
-    "frontend": ["React", "Tailwind CSS", "JavaScript", "HTML5", "CSS3", "Astro", "Next.js", "TypeScript"],
-    "backend": ["PHP", "MySQL", "PostgreSQL", "APIs"],
-    "tools": ["Git", "Scrum", "Agile", "Odoo"],
-    "languages": ["Inglés B2"]
+    "frontend": [
+      "React",
+      "Tailwind CSS",
+      "JavaScript",
+      "HTML5",
+      "CSS3",
+      "Astro",
+      "Next.js",
+      "TypeScript"
+    ],
+    "backend": [
+      "PHP",
+      "MySQL",
+      "PostgreSQL",
+      "APIs"
+    ],
+    "tools": [
+      "Git",
+      "Scrum",
+      "Agile",
+      "Odoo"
+    ],
+    "languages": [
+      "Inglés B2"
+    ]
   },
   "experience": [
     {
@@ -79,13 +109,13 @@
     {
       "id": 1,
       "title": "Grado Medio — Sistemas Microinformáticos y Redes (SMR)",
-      "center": "IES Ramón y Cajal, Zaragoza",
+      "center": "Academia Izquierdo, Zaragoza",
       "period": "2020 - 2022"
     },
     {
       "id": 2,
       "title": "Grado Superior — Desarrollo de Aplicaciones Web (DAW)",
-      "center": "IES Ramón y Cajal, Zaragoza",
+      "center": "Academia Izquierdo, Zaragoza",
       "period": "2022 - 2024"
     },
     {
@@ -106,7 +136,12 @@
       "id": 1,
       "title": "El Futuro del Entrenamiento",
       "description": "Aplicación web moderna y optimizada dedicada al rendimiento deportivo y la gestión de entrenamientos personalizados.",
-      "technologies": ["Astro", "React", "JavaScript", "CSS3"],
+      "technologies": [
+        "Astro",
+        "React",
+        "JavaScript",
+        "CSS3"
+      ],
       "github": "https://github.com/migueljosa7-svg/ProyectoFinalAstro",
       "renderDemo": "https://proyecto-final-astro.vercel.app/"
     },
@@ -114,15 +149,24 @@
       "id": 2,
       "title": "Hackathon 26 Endalia",
       "description": "Desarrollo e integración de una interfaz web adaptable en un plazo récord de 8 horas para la Hackathon Endalia, totalmente integrada con MySQL Server.",
-      "technologies": [".NET", "MySQL", "C#", "CSS3"],
+      "technologies": [
+        ".NET",
+        "MySQL",
+        "C#",
+        "CSS3"
+      ],
       "github": "https://github.com/Ivokard/hackathon26-endalia",
-      "renderDemo": "#"
+      "renderDemo": ""
     },
     {
       "id": 3,
       "title": "CaribePark",
       "description": "Aplicación interactiva diseñada bajo patrón MVC para la gestión de reservas, ventas y mantenimiento de un parque temático.",
-      "technologies": ["Java", "Swing", "MVC"],
+      "technologies": [
+        "Java",
+        "Swing",
+        "MVC"
+      ],
       "github": "https://github.com/migueljosa7-svg/CaribePark",
       "renderDemo": "#"
     },
@@ -130,7 +174,11 @@
       "id": 4,
       "title": "SkinMarket ES",
       "description": "Plataforma de comercio electrónico dedicada a la compra, venta e intercambio de skins de videojuegos.",
-      "technologies": ["React", "Tailwind CSS", "Node.js"],
+      "technologies": [
+        "React",
+        "Tailwind CSS",
+        "Node.js"
+      ],
       "github": "https://github.com/migueljosa7-svg/skinmarket-es",
       "renderDemo": "#"
     },
@@ -138,7 +186,11 @@
       "id": 5,
       "title": "Factos",
       "description": "Plataforma interactiva para recopilar y analizar datos estadísticos con visualizaciones en tiempo real.",
-      "technologies": ["Python", "Flask", "PostgreSQL"],
+      "technologies": [
+        "Python",
+        "Flask",
+        "PostgreSQL"
+      ],
       "github": "https://github.com/gabri98gim/factos",
       "renderDemo": "#"
     }

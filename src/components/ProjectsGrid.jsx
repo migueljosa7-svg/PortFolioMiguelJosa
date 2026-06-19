@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 /* -------------------------------------------------------
    ProjectsGrid — Filterable project cards.
@@ -54,8 +54,8 @@ function ProjectsGrid({ projects, sections, labels, filters }) {
 
               <p className="project-desc">{project.description}</p>
 
-              {/* Render cold-start warning — only when a live demo exists */}
-              {hasDemo && (
+              {/* Render cold-start warning — only when a live demo exists on Render */}
+              {hasDemo && project.renderDemo.includes('render.com') && (
                 <div className="render-note">
                   <svg width="13" height="13" viewBox="0 0 24 24" fill="none"
                     stroke="currentColor" strokeWidth="2.5"

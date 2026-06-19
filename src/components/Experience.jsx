@@ -1,4 +1,3 @@
-import React from 'react';
 
 function Experience({ experience, education, sections, labels }) {
   return (

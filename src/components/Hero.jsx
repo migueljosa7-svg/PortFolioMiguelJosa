@@ -1,12 +1,14 @@
-import React, { useState } from 'react';
+import { useState, useEffect, useRef } from 'react';
+import gsap from "gsap";
 
 /* ─────────────────────────────────────────────────
    Hero — Landing section.
    • Animated green availability badge.
    • CV button forces download via the `download` attribute.
    • Contact button copies email to clipboard.
-───────────────────────────────────────────────── */
+   ───────────────────────────────────────────────── */
 function Hero({ profile, labels }) {
+  const heroRef = useRef(null);
   const [copied, setCopied] = useState(false);
 
   const handleCopyEmail = () => {
@@ -16,13 +18,25 @@ function Hero({ profile, labels }) {
     });
   };
 
+  useEffect(() => {
+    const ctx = gsap.context(() => {
+      const tl = gsap.timeline({ defaults: { ease: 'power3.out' } });
+      tl.from('.hero-badge',  { opacity: 0, y: -20, duration: 0.5 })
+        .from('.hero-role',   { opacity: 0, y: -15, duration: 0.5 }, '-=0.2')
+        .from('.hero-title',  { opacity: 0, y: -30, duration: 0.7 }, '-=0.2')
+        .from('.hero-bio',    { opacity: 0, y:  20, duration: 0.6 }, '-=0.3')
+        .from('.hero-ctas',   { opacity: 0, y:  20, duration: 0.5 }, '-=0.3');
+    }, heroRef);
+    return () => ctx.revert();
+  }, []);
+
   return (
-    <section id="home" className="hero-section">
+    <section id="home" className="hero-section" ref={heroRef}>
       {/* Ambient glow */}
       <div className="hero-glow" aria-hidden="true" />
 
       {/* Availability badge */}
-      <div className="availability-badge">
+      <div className="availability-badge hero-badge">
         <span className="availability-dot" aria-hidden="true" />
         {labels.availableBadge}
       </div>
