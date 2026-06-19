@@ -22,7 +22,6 @@
     "availableBadge": "Disponible para incorporación inmediata",
     "githubButton": "Código en GitHub",
     "githubProfile": "https://github.com/migueljosa7-svg",
-
     "demoButton": "Demo en Vivo",
     "demoComingSoon": "Demo próximamente",
     "contactHeader": "Hablemos",
@@ -161,7 +160,7 @@
     {
       "id": 3,
       "title": "CaribePark",
-      "description": "Aplicación interactiva diseñada bajo patrón MVC para la gestión de reservas, ventas y mantenimiento de un parque temático.",
+      "description": "Aplicación interactiva diseñada bajo patrón MVC para la gestión de reservas, ventas y mantenimiento de un bar de barrio.",
       "technologies": [
         "Java",
         "Swing",
@@ -185,7 +184,7 @@
     {
       "id": 5,
       "title": "Factos",
-      "description": "Plataforma interactiva para recopilar y analizar datos estadísticos con visualizaciones en tiempo real.",
+      "description": "Plataforma interactiva para recopilar y analizar datos estadísticos con visualizaciones en tiempo real. Futura idea para hacer examenes de la DGT y carnet de conducir con IA. ",
       "technologies": [
         "Python",
         "Flask",
