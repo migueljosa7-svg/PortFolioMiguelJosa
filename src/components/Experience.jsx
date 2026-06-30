@@ -46,7 +46,7 @@ function Experience({ experience, education, sections, labels }) {
           </div>
         </div>
 
-        {/* EDUCATION COLUMN */}
+        {/* EDUCATION COLUMNs */}
         <div className="experience-column">
           <h3 className="column-title">
             <svg
